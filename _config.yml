@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
 title: Chang M. Yun
-description: Chang M. Yun | Personal Website
+description: Chang's Personal Website
+google_analytics: G-3K00PHEJRH

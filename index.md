@@ -8,10 +8,10 @@ For my undergraduate, I studied Chemical Engineering at Columbia University, wit
 For my Master's, I studied Biotechnology at the University of Cambridge, with research in engineering bacterial endospores for DNA data storage with Graham Christie.
 
 ## Projects
-**Designing de novo bacterial toxin-antitoxins using a generative genomic foundation model**
+**Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model**
 
 Link: [https://github.com/chang-m-yun/CS273B_TA_Evo](https://github.com/chang-m-yun/CS273B_TA_Evo)
 
-**Predicting post-transcriptional ADAR activity using language models**
+**Predicting post-transcriptional ADAR activity using transformer architecture**
 
 Link: [https://github.com/chang-m-yun/CS229_final_project/](https://github.com/chang-m-yun/CS229_final_project/)

@@ -2,7 +2,7 @@
 layout: default
 ---
 ## Bio:
-I am a PhD candidate at Stanford University in Chemical Engineering, advised by Anshul Kundaje in Computer Science & Genetics. My current research focuses on engineering molecular-scale biology of proteins and DNA using deep learning methods.
+I am a PhD candidate at Stanford University in Chemical Engineering, advised by Anshul Kundaje in Computer Science & Genetics. My current research focuses on modeling and engineering molecular-scale biology of proteins and DNA using deep learning methods.
 
 For my undergraduate, I studied Chemical Engineering at Columbia University, with research in electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals with Ponisseril Somasundaran.  
 For my Master's, I studied Biotechnology at the University of Cambridge, with research in engineering bacterial endospores for DNA data storage with Graham Christie.

@@ -3,3 +3,4 @@ logo: /assets/img/photo.png
 description: "<b>PhD Candidate, Stanford University</b><br>MPhil, University of Cambridge<br>BSc, Columbia University<br><br><i>Website still in progress..!</i>"
 theme: jekyll-theme-minimal
 google_analytics: G-3K00PHEJRH
+show_downloads: true

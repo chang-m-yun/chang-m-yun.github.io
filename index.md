@@ -17,12 +17,14 @@ ___Figure:___ _MotifCompendium: A GPU-accelerated Python package for clustering,
 - __GitHub__: [https://github.com/kundajelab/motifcompendium](https://github.com/kundajelab/motifcompendium) 
 - __Project page__: [https://www.encodeproject.org/](https://www.encodeproject.org/) 
 
+---
 #### Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model
 ![Figure: Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model](/assets/img/project_tat.png)
 ___Figure:___ _Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model. (a) Mechanism of Type II toxin-antitoxins. (b) High-level overview of the strategy for designing novel Type II toxin-antitoxins to expand the existing repertoire._
 
 - __GitHub__: [https://github.com/chang-m-yun/CS273B_TA_Evo](https://github.com/chang-m-yun/CS273B_TA_Evo)  
 
+---
 #### Predicting post-transcriptional ADAR activity using a language model
 ![Figure: Adenosine Deadmidase acting on RNA (ADAR) activity](/assets/img/project_adar.png)  
 ___Figure:___ _Adenosine Deadmidase acting on RNA (ADAR) activity_

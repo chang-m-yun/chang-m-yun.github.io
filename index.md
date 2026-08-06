@@ -2,9 +2,11 @@
 layout: default
 ---
 ## Bio:
-Hi! I'm a PhD candidate in Chemical Engineering at Stanford University, advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
+Hi! I'm a PhD candidate in Chemical Engineering at Stanford University. I'm advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
 
-My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖. My current research focuses on understanding the interface of DNA and proteins at molecular-scale using deep learning methods.
+__My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖. __
+
+My current research focuses on understanding the interface of DNA and proteins at molecular-scale using deep learning methods.
 
 I briefly worked in consulting at Bain & Company as an Associate Consultant in the pharma, healthcare & med tech practice.
 
@@ -20,12 +22,12 @@ Feel free to reach out: [X](https://x.com/chang_m_yun), [LinkedIn](https://www.l
 ___Figure:___ _ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models trained on TF binding, chromatin accessibility, transcription initiation, and reporter assays across ENCODE, each with full model predictions and interpretations._
 
 - __Blog post__: [https://genomicsxai.github.io/blogs/2026-012/](https://genomicsxai.github.io/blogs/2026-012/)
+- __Main ENCODE 4 Preprint__: [https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1)
+- __Technical Note__: [https://doi.org/10.5281/zenodo.17123347](https://doi.org/10.5281/zenodo.17123347)
 - __User-friendly resources__:
-  - __Models on Hugging Face__: [https://huggingface.co/collections/kundajelab/encode-bpnet-models](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
-  - __Tracks on UCSC Genome Browser__: [https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
-  - __All resources on ENCODE Portal__: [https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
-- __Main ENCODE 4 Preprint__: [https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1) 
-- __Technical Note__: [https://doi.org/10.5281/zenodo.17123347](https://doi.org/10.5281/zenodo.17123347) 
+  - Models on Hugging Face: [https://huggingface.co/collections/kundajelab/encode-bpnet-models](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
+  - Tracks on UCSC Genome Browser: [https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
+  - All resources on ENCODE Portal: [https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
 
 ---
 #### A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays
@@ -44,7 +46,7 @@ ___Figure:___ _JASPAR 2026: Deep learning collection: Characterizes TF–DNA int
 - __Publication__: [https://doi.org/10.1093/nar/gkaf1209](https://doi.org/10.1093/nar/gkaf1209) 
 - __JASPAR: Deep Learning Collection__: [https://jaspar.elixir.no/collection/deep-learning/](https://jaspar.elixir.no/collection/deep-learning/) 
 
-## Previous projects:
+## Past projects:
 #### Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model
 ![Figure: Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model.](/assets/img/project_tat.png)
 ___Figure:___ _Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model. (a) Mechanism of Type II toxin-antitoxins. (b) High-level overview of the strategy for designing novel Type II toxin-antitoxins to expand the existing repertoire._

@@ -2,21 +2,30 @@
 layout: default
 ---
 ## Bio:
-I am a PhD candidate at Stanford University, advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering. 
+Hi! I'm a PhD candidate in Chemical Engineering at Stanford University, advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
 
-My current research focuses on modeling and engineering molecular-scale biology using deep learning methods.
+My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖. My current research focuses on understanding the interface of DNA and proteins at molecular-scale using deep learning methods.
 
-For my undergraduate, I studied Chemical Engineering at Columbia University, with research in electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals with Ponisseril Somasundaran.  
-For my Master's, I studied Biotechnology at the University of Cambridge, with research in engineering bacterial endospores for DNA data storage with Graham Christie.
-For my PhD, I am currently a part of the Chemical Engineering Department at Stanford University.
+I briefly worked in consulting at Bain & Company as an Associate Consultant in the pharma, healthcare & med tech practice.
 
-## Projects:
-#### JASPAR 2026: expansion of transcription factor binding profiles and integration of deep learning models
-![Figure: JASPAR 2026: Deep learning collection.](/assets/img/project_jaspar.jpg)
-___Figure:___ _JASPAR 2026: Deep learning collection: Characterizes TF–DNA interactions with 1,259 BPNet models trained on Homo sapiens ENCODE chromatin immunoprecipitation followed by sequencing (ChIP-seq) datasets from 240 TFs and interpreted to reveal predictive motif patterns for the models. The motifs associated with the same TF were clustered to provide a summary of the binding properties, resulting in 240 primary and 113 alternative motif patterns in the DL collection. The top panel illustrates the comprehensive workflow. The bottom panels present screenshots of the TF summary profile page (left) and the model page (right)._
+For my Master's, I studied at the University of Cambridge in Biotechnology, advised by Graham Christie, investigating in engineering bacterial endospores for DNA data storage.
 
-- __Publication__: [https://doi.org/10.1093/nar/gkaf1209](https://doi.org/10.1093/nar/gkaf1209) 
-- __JASPAR: Deep Learning Collection__: [https://jaspar.elixir.no/collection/deep-learning/](https://jaspar.elixir.no/collection/deep-learning/) 
+For my undergraduate, I studied at Columbia University in Chemical Engineering, advised by Ponisseril Somasundaran, investigating electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals.  
+
+Feel free to reach out: [X](https://x.com/chang_m_yun), [LinkedIn](https://www.linkedin.com/in/chang-m-yun/), or email (chang.m.yun [at] stanford [dot] edu)!
+
+## Current projects:
+#### ENCODE GRAMMAR (Genomic Regulatory Atlas of sequence Models, Motifs, Annotations and Rules): A deep learning model resource for decoding the DNA sequence logic of regulatory elements in the human genome
+![Figure: ENCODE GRAMMAR: A deep learning resource that transforms the extensive ENCODE compendium of genome-wide biochemical profiling experiments into predictive models and interpretable regulatory sequence annotations: (1) ENCODE experiments measure complementary layers of gene regulation, including TF binding by TF ChIP–seq, chromatin accessibility by DNase-seq and ATAC-seq, transcription initiation by PRO-cap, and sequence-driven regulatory activity by MPRAs. (2) Deep learning models from the BPNet family (BPNet, ChromBPNet, ProCapNet, and ReporterNet) are trained separately for each experiment and cellular context to predict the corresponding biochemical signal directly from local DNA sequence. (3) Product resources released for each experiment include the trained models; predicted, base-resolution biochemical profiles; sequence-contribution maps identifying bases that drive model predictions; recurring predictive sequence motifs; genomic motif instances; and predicted effects of genetic variants obtained by comparing reference and alternate allele sequences..](/assets/img/project_encode_grammar.png)
+___Figure:___ _ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models trained on TF binding, chromatin accessibility, transcription initiation, and reporter assays across ENCODE, each with full model predictions and interpretations._
+
+- __Blog post__: [https://genomicsxai.github.io/blogs/2026-012/](https://genomicsxai.github.io/blogs/2026-012/)
+- __User-friendly resources__:
+  - __Models on Hugging Face__: [https://huggingface.co/collections/kundajelab/encode-bpnet-models](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
+  - __Tracks on UCSC Genome Browser__: [https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
+  - __All resources on ENCODE Portal__: [https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
+- __Main ENCODE 4 Preprint__: [https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1) 
+- __Technical Note__: [https://doi.org/10.5281/zenodo.17123347](https://doi.org/10.5281/zenodo.17123347) 
 
 ---
 #### A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays
@@ -26,9 +35,16 @@ ___Figure:___ _MotifCompendium: A GPU-accelerated Python package for clustering,
 
 - __Technical Note__: [https://doi.org/10.5281/zenodo.17123347](https://doi.org/10.5281/zenodo.17123347) 
 - __GitHub__: [https://github.com/kundajelab/motifcompendium](https://github.com/kundajelab/motifcompendium) 
-- __ENCODE Project__: [https://www.encodeproject.org/](https://www.encodeproject.org/) 
 
 ---
+#### JASPAR 2026: expansion of transcription factor binding profiles and integration of deep learning models
+![Figure: JASPAR 2026: Deep learning collection.](/assets/img/project_jaspar.jpg)
+___Figure:___ _JASPAR 2026: Deep learning collection: Characterizes TF–DNA interactions with 1,259 BPNet models trained on Homo sapiens ENCODE chromatin immunoprecipitation followed by sequencing (ChIP-seq) datasets from 240 TFs and interpreted to reveal predictive motif patterns for the models. The motifs associated with the same TF were clustered to provide a summary of the binding properties, resulting in 240 primary and 113 alternative motif patterns in the DL collection. The top panel illustrates the comprehensive workflow. The bottom panels present screenshots of the TF summary profile page (left) and the model page (right)._
+
+- __Publication__: [https://doi.org/10.1093/nar/gkaf1209](https://doi.org/10.1093/nar/gkaf1209) 
+- __JASPAR: Deep Learning Collection__: [https://jaspar.elixir.no/collection/deep-learning/](https://jaspar.elixir.no/collection/deep-learning/) 
+
+## Previous projects:
 #### Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model
 ![Figure: Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model.](/assets/img/project_tat.png)
 ___Figure:___ _Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model. (a) Mechanism of Type II toxin-antitoxins. (b) High-level overview of the strategy for designing novel Type II toxin-antitoxins to expand the existing repertoire._

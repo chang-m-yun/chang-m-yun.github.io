@@ -4,7 +4,7 @@ layout: default
 ## Bio:
 Hi! I'm a PhD candidate in Chemical Engineering at Stanford University. I'm advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
 
-__My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖. __
+__My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖.__
 
 My current research focuses on understanding the interface of DNA and proteins at molecular-scale using deep learning methods.
 

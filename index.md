@@ -2,7 +2,9 @@
 layout: default
 ---
 ## Bio:
-Hi! I'm a PhD candidate in Chemical Engineering at Stanford University. I'm advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
+Hi! I'm a PhD candidate in Chemical Engineering at Stanford University. 
+
+I'm advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
 
 __My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖.__
 
@@ -14,7 +16,7 @@ For my Master's, I studied at the University of Cambridge in Biotechnology, advi
 
 For my undergraduate, I studied at Columbia University in Chemical Engineering, advised by Ponisseril Somasundaran, investigating electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals.  
 
-Feel free to reach out: [X](https://x.com/chang_m_yun), [LinkedIn](https://www.linkedin.com/in/chang-m-yun/), or email (chang.m.yun [at] stanford [dot] edu)!
+Feel free to reach out! [X](https://x.com/chang_m_yun), [LinkedIn](https://www.linkedin.com/in/chang-m-yun/), or at chang.m.yun [at] stanford [dot] edu
 
 ## Current projects:
 ### ENCODE GRAMMAR (Genomic Regulatory Atlas of sequence Models, Motifs, Annotations and Rules): A deep learning model resource for decoding the DNA sequence logic of regulatory elements in the human genome
@@ -46,7 +48,7 @@ ___Figure:___ _JASPAR 2026: Deep learning collection: Characterizes TF–DNA int
 - __Publication__: [https://doi.org/10.1093/nar/gkaf1209](https://doi.org/10.1093/nar/gkaf1209) 
 - __JASPAR: Deep Learning Collection__: [https://jaspar.elixir.no/collection/deep-learning/](https://jaspar.elixir.no/collection/deep-learning/) 
 
-
+---
 ## Past projects:
 ### Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model
 ![Figure: Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model.](/assets/img/project_tat.png)

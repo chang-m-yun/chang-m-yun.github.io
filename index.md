@@ -4,7 +4,7 @@ layout: default
 ## Bio:
 Hi! I'm a PhD candidate in Chemical Engineering at Stanford University. 
 
-I'm advised by Anshul Kundaje in Computer Science & Genetics, and co-advised by Brian Hie in Chemical Engineering & Data Science. 
+I'm advised by [Anshul Kundaje](https://kundajelab.github.io/) in Computer Science & Genetics, and co-advised by [Brian Hie](https://evodesign.org/) in Chemical Engineering & Data Science. 
 
 __My interest is in all things DNA 🧬, proteins 🧪, and engineering 🤖.__
 

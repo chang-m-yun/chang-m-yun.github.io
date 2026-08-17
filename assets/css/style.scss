@@ -2,3 +2,294 @@
 ---
 
 @import "{{ site.theme }}";
+
+:root {
+  --page-bg: #f7f8fb;
+  --text: #24292f;
+  --muted: #667085;
+  --border: #d9e1ea;
+  --accent: #0f766e;
+  --accent-dark: #115e59;
+  --link: #0969da;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page-bg);
+}
+
+body {
+  background:
+    linear-gradient(180deg, #ffffff 0, #ffffff 280px, var(--page-bg) 720px);
+  color: var(--text);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 56px 0 48px;
+  width: calc(100% - 56px);
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-dark);
+}
+
+a:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid rgba(15, 118, 110, 0.25);
+  outline-offset: 2px;
+}
+
+header {
+  border-top: 4px solid var(--accent);
+  color: var(--muted);
+  float: left;
+  padding-top: 22px;
+  position: sticky;
+  top: 36px;
+  width: 280px;
+}
+
+header h1 {
+  font-size: 2rem;
+  line-height: 1.12;
+  margin: 0 0 18px;
+}
+
+header h1 a {
+  color: var(--text);
+  font-weight: 700;
+}
+
+header h1 a:hover,
+header h1 a:focus {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+header img {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+  display: block;
+  height: 132px;
+  margin: 6px 0 18px;
+  object-fit: cover;
+  padding: 4px;
+  width: 132px;
+}
+
+header p {
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+header b,
+header strong {
+  color: var(--text);
+}
+
+.view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.view a {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--accent-dark);
+  font-size: 0.88rem;
+  line-height: 1.2;
+  padding: 6px 10px;
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.view a:hover,
+.view a:focus {
+  background: #e6f4f1;
+  border-color: rgba(15, 118, 110, 0.35);
+  color: var(--accent-dark);
+}
+
+section {
+  float: right;
+  padding-bottom: 64px;
+  width: 720px;
+}
+
+section h2 {
+  border-top: 1px solid var(--border);
+  color: #111827;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: 1.25;
+  margin: 48px 0 18px;
+  padding-top: 30px;
+}
+
+section h2:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+section h3 {
+  color: #1f2937;
+  font-size: 1.08rem;
+  letter-spacing: 0;
+  line-height: 1.38;
+  margin: 34px 0 14px;
+}
+
+section p {
+  margin: 0 0 1rem;
+}
+
+section ul {
+  margin: 0 0 1.25rem;
+  padding-left: 1.15rem;
+}
+
+section li + li {
+  margin-top: 0.35rem;
+}
+
+section a {
+  overflow-wrap: anywhere;
+}
+
+section img {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+  display: block;
+  height: auto;
+  margin: 20px auto 10px;
+  max-width: 100%;
+}
+
+section img + p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+section img + p strong {
+  color: #475467;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 38px 0 24px;
+}
+
+footer {
+  clear: left;
+  color: var(--muted);
+  float: left;
+  font-size: 0.85rem;
+  margin-top: 28px;
+  position: static;
+  width: 280px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media print, screen and (max-width: 960px) {
+  .wrapper {
+    max-width: 760px;
+    padding: 34px 0 44px;
+    width: calc(100% - 36px);
+  }
+
+  header,
+  section,
+  footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+    padding-right: 0;
+  }
+
+  header img {
+    height: 112px;
+    width: 112px;
+  }
+
+  section {
+    border: 0;
+    margin: 0;
+    padding: 0 0 48px;
+  }
+
+  footer {
+    margin-top: 28px;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+
+  .wrapper {
+    width: calc(100% - 28px);
+  }
+
+  header h1 {
+    font-size: 1.75rem;
+  }
+
+  section h2 {
+    font-size: 1.32rem;
+  }
+
+  section h3 {
+    font-size: 1rem;
+  }
+
+  .view a {
+    font-size: 0.84rem;
+    padding: 6px 9px;
+  }
+}

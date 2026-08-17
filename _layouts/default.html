@@ -24,14 +24,14 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_user_page %}
-          <p class="view">
-            <a href="https://x.com/chang_m_yun">X/Twitter</a> |
-            <a href="https://www.linkedin.com/in/chang-m-yun/">LinkedIn</a> |
-            <a href="https://bsky.app/profile/chang-m-yun.bsky.social">Bluesky</a> |
-            <a href="{{ site.github.owner_url }}">GitHub</a> |
-            <a href="https://profiles.stanford.edu/chang-m-yun">Stanford</a> |
+          <nav class="view" aria-label="Profile links">
+            <a href="https://x.com/chang_m_yun">X/Twitter</a>
+            <a href="https://www.linkedin.com/in/chang-m-yun/">LinkedIn</a>
+            <a href="https://bsky.app/profile/chang-m-yun.bsky.social">Bluesky</a>
+            <a href="{{ site.github.owner_url }}">GitHub</a>
+            <a href="https://profiles.stanford.edu/chang-m-yun">Stanford</a>
             <a href="https://kundajelab.github.io/">Kundaje Lab</a>
-          </p>
+          </nav>
         {% endif %}
 
         {% if site.show_downloads %}

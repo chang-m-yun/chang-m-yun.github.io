@@ -16,7 +16,7 @@ For my Master's degree, I studied [Biotechnology](https://www.ceb.cam.ac.uk/) at
 
 For my undergraduate degree, I studied [Chemical Engineering](https://www.cheme.columbia.edu/) at Columbia University, advised by [Ponisseril Somasundaran](https://blogs.cuit.columbia.edu/ps24/), investigating electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals. I was an [Egleston Scholar](https://www.engineering.columbia.edu/academics/programs/undergraduate-programs/egleston-scholars-program/class-2020-egleston-scholars) in the Fu Foundation School of Engineering and Applied Sciences.
 
-My other interests include [oil painting](https://www.instagram.com/hands.and_lines/) 🎨 and skiing ⛷️.
+My other interests include [craft beers](https://brewery304.com/) 🍺, [oil painting](https://www.instagram.com/hands.and_lines/) 🎨 and skiing ⛷️.
 
 _For more, see more below._
 

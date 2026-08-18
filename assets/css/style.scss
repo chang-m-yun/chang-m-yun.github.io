@@ -59,6 +59,8 @@ header {
   border-top: 4px solid var(--accent);
   color: var(--muted);
   float: left;
+  font-size: 1rem;
+  line-height: 1.65;
   padding-top: 22px;
   position: sticky;
   top: 36px;
@@ -84,14 +86,14 @@ header h1 a:focus {
 
 header img {
   background: #ffffff;
-  border: 1px solid var(--border);
-  border-radius: 50%;
+  border: 0;
+  border-radius: 0;
   box-shadow: none;
   display: block;
   height: 132px;
   margin: 6px 0 18px;
   object-fit: cover;
-  padding: 4px;
+  padding: 0;
   width: 132px;
 }
 
@@ -106,31 +108,32 @@ header strong {
 }
 
 .view {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: block;
+  font-size: inherit;
+  line-height: inherit;
   margin-top: 22px;
 }
 
 .view a {
-  background: #ffffff;
-  border: 1px solid var(--border);
-  border-radius: 999px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
   color: var(--link);
-  font-size: 0.88rem;
-  line-height: 1.2;
-  padding: 6px 10px;
-  text-decoration: none;
-  transition:
-    background-color 160ms ease,
-    border-color 160ms ease,
-    color 160ms ease;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  text-decoration: underline;
+  transition: color 160ms ease;
+}
+
+.view span {
+  color: var(--muted);
+  margin: 0 0.35rem;
 }
 
 .view a:hover,
 .view a:focus {
-  background: var(--soft);
-  border-color: #999999;
+  background: transparent;
   color: var(--accent-dark);
 }
 
@@ -141,20 +144,20 @@ header strong {
 }
 
 .site-index h2 {
-  color: var(--muted);
-  font-size: 0.78rem;
+  color: var(--text);
+  font-size: inherit;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 1.2;
+  letter-spacing: 0;
+  line-height: inherit;
   margin: 0 0 10px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .site-index a {
   color: var(--text);
   display: block;
-  font-size: 0.92rem;
-  line-height: 1.35;
+  font-size: inherit;
+  line-height: inherit;
   padding: 4px 0;
   text-decoration: none;
 }
@@ -314,7 +317,7 @@ footer p {
   }
 
   .view a {
-    font-size: 0.84rem;
-    padding: 6px 9px;
+    font-size: inherit;
+    padding: 0;
   }
 }

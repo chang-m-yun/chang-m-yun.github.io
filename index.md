@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Bio
+# Bio:
 Hi! I'm a PhD candidate in Chemical Engineering at Stanford University. 
 
 I'm advised by [Anshul Kundaje](https://kundajelab.github.io/) in Computer Science & Genetics, and co-advised by [Brian Hie](https://evodesign.org/) in Chemical Engineering & Data Science. 
@@ -16,10 +16,8 @@ For my Master's, I studied at the University of Cambridge in Biotechnology, advi
 
 For my undergraduate, I studied at Columbia University in Chemical Engineering, advised by Ponisseril Somasundaran, investigating electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals.  
 
-Feel free to reach out! [X](https://x.com/chang_m_yun), [LinkedIn](https://www.linkedin.com/in/chang-m-yun/), or at chang.m.yun [at] stanford [dot] edu
-
 ---
-## Current projects
+# Current projects:
 ### ENCODE GRAMMAR (Genomic Regulatory Atlas of sequence Models, Motifs, Annotations and Rules): A deep learning model resource for decoding the DNA sequence logic of regulatory elements in the human genome
 ![Figure: ENCODE GRAMMAR: A deep learning resource that transforms the extensive ENCODE compendium of genome-wide biochemical profiling experiments into predictive models and interpretable regulatory sequence annotations: (1) ENCODE experiments measure complementary layers of gene regulation, including TF binding by TF ChIP–seq, chromatin accessibility by DNase-seq and ATAC-seq, transcription initiation by PRO-cap, and sequence-driven regulatory activity by MPRAs. (2) Deep learning models from the BPNet family (BPNet, ChromBPNet, ProCapNet, and ReporterNet) are trained separately for each experiment and cellular context to predict the corresponding biochemical signal directly from local DNA sequence. (3) Product resources released for each experiment include the trained models; predicted, base-resolution biochemical profiles; sequence-contribution maps identifying bases that drive model predictions; recurring predictive sequence motifs; genomic motif instances; and predicted effects of genetic variants obtained by comparing reference and alternate allele sequences..](/assets/img/project_encode_grammar.png)
 ___Figure:___ _ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models trained on TF binding, chromatin accessibility, transcription initiation, and reporter assays across ENCODE, each with full model predictions and interpretations._
@@ -50,7 +48,7 @@ ___Figure:___ _JASPAR 2026: Deep learning collection: Characterizes TF–DNA int
 - __JASPAR: Deep Learning Collection__: [https://jaspar.elixir.no/collection/deep-learning/](https://jaspar.elixir.no/collection/deep-learning/) 
 
 ---
-## Past projects
+# Past projects:
 ### Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model
 ![Figure: Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model.](/assets/img/project_tat.png)
 ___Figure:___ _Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model. (a) Mechanism of Type II toxin-antitoxins. (b) High-level overview of the strategy for designing novel Type II toxin-antitoxins to expand the existing repertoire._
@@ -63,3 +61,8 @@ ___Figure:___ _Strategy for de novo design of Type II toxin-antitoxins using a g
 ___Figure:___ _Adenosine Deadmidase acting on RNA (ADAR) activity_
 
 - __GitHub__: [https://github.com/chang-m-yun/CS229_final_project/](https://github.com/chang-m-yun/CS229_final_project/)
+
+---
+# Teaching:
+### Data Science and Machine Learning Approaches in Chemical and Materials Engineering (CHEMENG 177/277, MATSCI 166/176) [Winter 2026]
+Course assistant for [Data Science and Machine Learning Approaches in Chemical and Materials Engineering (CHEMENG 177/277, MATSCI 166/176) [Winter 2026]](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CHEMENG+177%3A+Data+Science+and+Machine+Learning+Approaches+in+Chemical+and+Materials+Engineering&collapse=); Instructor: Brian Hie.

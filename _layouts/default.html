@@ -34,6 +34,13 @@
           </nav>
         {% endif %}
 
+        <nav class="site-index" aria-label="Page index">
+          <h2>Index</h2>
+          <a href="#bio">Bio</a>
+          <a href="#current-projects">Current projects</a>
+          <a href="#past-projects">Past projects</a>
+        </nav>
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -48,7 +55,7 @@
 
       </section>
       <footer>
-        <p><small>Hosted on GitHub Pages</small></p>
+        <p><small>Copyright &copy; {{ "now" | date: "%Y" }} Chang M. Yun</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

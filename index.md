@@ -16,7 +16,7 @@ For my Master's, I studied at the University of Cambridge in Biotechnology, advi
 
 For my undergraduate, I studied at Columbia University in Chemical Engineering, advised by Ponisseril Somasundaran, investigating electrocatalytic reduction of CO2 using non-toxic, earth-abundant metals.
 
-See more below.
+For more, see more below.
 
 ---
 # Current projects:

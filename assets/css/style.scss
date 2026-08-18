@@ -40,6 +40,7 @@ body {
 
 a {
   color: var(--link);
+  font-style: italic;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
 }
@@ -57,7 +58,7 @@ a:focus-visible {
 
 header {
   border-top: 4px solid var(--accent);
-  color: var(--muted);
+  color: #000000;
   float: left;
   font-size: 1rem;
   line-height: 1.65;
@@ -74,13 +75,13 @@ header h1 {
 }
 
 header h1 a {
-  color: var(--text);
+  color: #000000;
   font-weight: 700;
 }
 
 header h1 a:hover,
 header h1 a:focus {
-  color: var(--accent-dark);
+  color: #000000;
   text-decoration: none;
 }
 
@@ -98,13 +99,13 @@ header img {
 }
 
 header p {
-  color: var(--muted);
+  color: #000000;
   margin: 0 0 18px;
 }
 
 header b,
 header strong {
-  color: var(--text);
+  color: #000000;
 }
 
 .view {
@@ -118,7 +119,7 @@ header strong {
   background: transparent;
   border: 0;
   border-radius: 0;
-  color: var(--link);
+  color: #000000;
   font-size: inherit;
   line-height: inherit;
   padding: 0;
@@ -127,14 +128,14 @@ header strong {
 }
 
 .view span {
-  color: var(--muted);
+  color: #000000;
   margin: 0 0.35rem;
 }
 
 .view a:hover,
 .view a:focus {
   background: transparent;
-  color: var(--accent-dark);
+  color: #000000;
 }
 
 .site-index {
@@ -144,7 +145,7 @@ header strong {
 }
 
 .site-index h2 {
-  color: var(--text);
+  color: #000000;
   font-size: inherit;
   font-weight: 700;
   letter-spacing: 0;
@@ -154,7 +155,7 @@ header strong {
 }
 
 .site-index a {
-  color: var(--text);
+  color: #000000;
   display: block;
   font-size: inherit;
   line-height: inherit;
@@ -164,7 +165,7 @@ header strong {
 
 .site-index a:hover,
 .site-index a:focus {
-  color: var(--accent-dark);
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -245,7 +246,7 @@ hr {
 
 footer {
   clear: left;
-  color: var(--muted);
+  color: #000000;
   float: left;
   font-size: 0.85rem;
   margin-top: 28px;

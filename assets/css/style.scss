@@ -57,7 +57,7 @@ a:focus-visible {
 }
 
 header {
-  border-top: 4px solid var(--accent);
+  border-top: 1px solid var(--border);
   color: #000000;
   float: left;
   font-size: 1rem;
@@ -267,13 +267,13 @@ footer p {
 
   header {
     border-bottom: 1px solid var(--border);
-    margin-bottom: 30px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 18px;
     padding-right: 0;
   }
 
   .site-index {
-    margin-bottom: 28px;
+    margin-bottom: 22px;
   }
 
   header img {
@@ -303,6 +303,13 @@ footer p {
 
   .site-index {
     gap: 0.15rem 0.75rem;
+    margin-bottom: 16px;
+  }
+
+  header {
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
   }
 
   header h1 {

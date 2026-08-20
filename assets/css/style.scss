@@ -136,9 +136,14 @@ header strong {
 }
 
 .site-index {
-  border-top: 1px solid var(--border);
-  margin-top: 24px;
-  padding-top: 18px;
+  align-items: baseline;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin: 0 0 34px;
+  padding: 0 0 14px;
+  width: 100%;
 }
 
 .site-index h2 {
@@ -147,16 +152,16 @@ header strong {
   font-weight: 700;
   letter-spacing: 0;
   line-height: inherit;
-  margin: 0 0 10px;
+  margin: 0;
   text-transform: none;
 }
 
 .site-index a {
   color: var(--link);
-  display: block;
+  display: inline;
   font-size: inherit;
   line-height: inherit;
-  padding: 4px 0;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -277,6 +282,10 @@ footer p {
     padding-right: 0;
   }
 
+  .site-index {
+    margin-bottom: 28px;
+  }
+
   header img {
     height: 112px;
     width: 112px;
@@ -300,6 +309,15 @@ footer p {
 
   .wrapper {
     width: calc(100% - 28px);
+  }
+
+  .site-index {
+    gap: 0.15rem 0.75rem;
+    padding-bottom: 12px;
+  }
+
+  .site-index h2 {
+    flex-basis: 100%;
   }
 
   header h1 {

@@ -57,12 +57,11 @@ a:focus-visible {
 }
 
 header {
-  border-top: 1px solid var(--border);
   color: #000000;
   float: left;
   font-size: 1rem;
   line-height: 1.65;
-  padding-top: 22px;
+  padding-top: 12px;
   position: sticky;
   top: 36px;
   width: 280px;
@@ -309,7 +308,7 @@ footer p {
   header {
     margin-bottom: 20px;
     padding-bottom: 14px;
-    padding-top: 14px;
+    padding-top: 8px;
   }
 
   header h1 {

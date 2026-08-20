@@ -137,23 +137,13 @@ header strong {
 
 .site-index {
   align-items: baseline;
-  border-bottom: 1px solid var(--border);
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1rem;
-  margin: 0 0 34px;
-  padding: 0 0 14px;
+  gap: 0.35rem 1.1rem;
+  justify-content: flex-end;
+  margin: 0 0 32px;
+  padding: 0;
   width: 100%;
-}
-
-.site-index h2 {
-  color: #000000;
-  font-size: inherit;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: inherit;
-  margin: 0;
-  text-transform: none;
 }
 
 .site-index a {
@@ -313,11 +303,6 @@ footer p {
 
   .site-index {
     gap: 0.15rem 0.75rem;
-    padding-bottom: 12px;
-  }
-
-  .site-index h2 {
-    flex-basis: 100%;
   }
 
   header h1 {

@@ -30,9 +30,9 @@ __Figure:__ ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models
 - __Main ENCODE 4 Preprint__: [Link](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1)
 - __Technical Note__: [Link](https://doi.org/10.5281/zenodo.17123347)
 - __User-friendly resources__:
-  - Models on Hugging Face:[Link](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
-  - Tracks on UCSC Genome Browser: [Link](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
-  - All resources on ENCODE Portal: [Link](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
+  - Models on __Hugging Face__: [Link](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
+  - Tracks on __UCSC Genome Browser__: [Link](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
+  - All resources on __ENCODE Portal__: [Link](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
 
 ---
 ## A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays
@@ -68,28 +68,30 @@ __Figure:__ Adenosine Deadmidase acting on RNA (ADAR) activity.
 
 ---
 # Publications:
-### [A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays (Technial Note)](https://doi.org/10.5281/zenodo.17123347) 
-Chang M. Yun\*, Salil Deshpande\*, Vivekanandan Ramalingam\*, Vivian Hecht\*, Aman Patel\*, Anusri Pampari\*, Selin Jessa, Ryan Zhao, Austin Wang, Anshul Kundaje^.  
+### [A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays (Technial Note)](https://doi.org/10.5281/zenodo.17123347)
+__Chang M. Yun\*__, Salil Deshpande\*, Vivekanandan Ramalingam\*, Vivian Hecht\*, Aman Patel\*, Anusri Pampari\*, Selin Jessa, Ryan Zhao, Austin Wang, Anshul Kundaje^.  
 [_Zenodo_, August 2026]((https://doi.org/10.5281/zenodo.17123347)).  
 
-### [The Encyclopedia of DNA Elements](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1) 
-The ENCODE Project Consortium\*; Timothy E. Reddy\*.  
+### [The Encyclopedia of DNA Elements](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1)
+__The ENCODE Project Consortium\*__; Timothy E. Reddy\*.  
 [_bioRxiv_, July 2026](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1).  
 
-### [Decoding common and rare noncoding variant effects across cellular and developmental contexts](https://www.nature.com/articles/s41588-026-02619-6) 
-Andrew R. Marderstein\*, Soumya Kundu\*, Evin M. Padhi, Salil Deshpande, Austin Wang, Esther Robb, Ying Sun, Chang M. Yun, Diego Pomales-Matos, Yilin Xie, Serena H. Chang, Iris M. Chin, Aayushi J. Shah, Zachary A. Gardell, M. Ryan Corces, Daniel Nachun, Selin Jessa, Anshul Kundaje^ & Stephen B. Montgomery^.  
+### [Decoding common and rare noncoding variant effects across cellular and developmental contexts](https://www.nature.com/articles/s41588-026-02619-6)
+Andrew R. Marderstein\*, Soumya Kundu\*, Evin M. Padhi, Salil Deshpande, Austin Wang, Esther Robb, Ying Sun, __Chang M. Yun__, Diego Pomales-Matos, Yilin Xie, Serena H. Chang, Iris M. Chin, Aayushi J. Shah, Zachary A. Gardell, M. Ryan Corces, Daniel Nachun, Selin Jessa, Anshul Kundaje^ & Stephen B. Montgomery^.  
 [_Nature Genetics_, June 2026](https://www.nature.com/articles/s41588-026-02619-6).  
 
-### [JASPAR 2026: expansion of transcription factor binding profiles and integration of deep learning models](https://academic.oup.com/nar/article/54/D1/D184/8343514) 
-Damla Ovek Baydar\*, Ieva Rauluseviciute\*, Dina R Aronsen, Romain Blanc-Mathieu, Ine Bonthuis, Herman de Beukelaer, Katalin Ferenc, Alice Jegou, Vipin Kumar, Roza Berhanu Lemma, Jérémy Lucas, Mathis Pochon, Chang M. Yun, Vivekanandan Ramalingam, Salil Sanjay Deshpande, Aman Patel, Georgi K Marinov, Austin T Wang, Alejandro Aguirre, Jaime A Castro-Mondragon, Damir Baranasic, Jeanne Chèneby, Sveinung Gundersen, Morten Johansen, Aziz Khan, Marieke L Kuijjer, Eivind Hovig, Boris Lenhard^, Albin Sandelin^, Klaas Vandepoele^, Wyeth W Wasserman^, François Parcy^, Anshul Kundaje^, Anthony Mathelier^.  
+### [JASPAR 2026: expansion of transcription factor binding profiles and integration of deep learning models](https://academic.oup.com/nar/article/54/D1/D184/8343514)
+Damla Ovek Baydar\*, Ieva Rauluseviciute\*, Dina R Aronsen, Romain Blanc-Mathieu, Ine Bonthuis, Herman de Beukelaer, Katalin Ferenc, Alice Jegou, Vipin Kumar, Roza Berhanu Lemma, Jérémy Lucas, Mathis Pochon, __Chang M. Yun__, Vivekanandan Ramalingam, Salil Sanjay Deshpande, Aman Patel, Georgi K Marinov, Austin T Wang, Alejandro Aguirre, Jaime A Castro-Mondragon, Damir Baranasic, Jeanne Chèneby, Sveinung Gundersen, Morten Johansen, Aziz Khan, Marieke L Kuijjer, Eivind Hovig, Boris Lenhard^, Albin Sandelin^, Klaas Vandepoele^, Wyeth W Wasserman^, François Parcy^, Anshul Kundaje^, Anthony Mathelier^.  
 [_Nucleic Acids Research_, January 2026](https://academic.oup.com/nar/article/54/D1/D184/8343514).  
 
-### [Robust Electroreduction of CO2 at a Poly(4-vinylpyridine)–Copper Electrode](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/celc.201500421) 
-Sathish Ponnurangam\*, Chang Min Yun, Irina V. Chernyshova^.  
+### [Robust Electroreduction of CO2 at a Poly(4-vinylpyridine)–Copper Electrode](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/celc.201500421)
+Sathish Ponnurangam\*, __Chang Min Yun__, Irina V. Chernyshova^.  
 [_ChemElectroChem_, October 2015](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/celc.201500421).  
 
 ---
 # Teaching:
-### [Data Science and Machine Learning Approaches in Chemical and Materials Engineering (CHEMENG 177/277, MATSCI 166/176) [Winter 2026]](https://explorecourses.stanford.edu/search?q=CHEMENG+177%3a+Data+Science+and+Machine+Learning+Approaches+in+Chemical+and+Materials+Engineering&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20252026); As Course assistant (CA); Instructor: Brian Hie.
+### [Data Science and Machine Learning Approaches in Chemical and Materials Engineering (CHEMENG 177/277, MATSCI 166/176) [Winter 2026]](https://explorecourses.stanford.edu/search?q=CHEMENG+177%3a+Data+Science+and+Machine+Learning+Approaches+in+Chemical+and+Materials+Engineering&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20252026)
+As Course assistant (CA); Instructor: Brian Hie.
 
-### [Data Science and Machine Learning Approaches in Chemical and Materials Engineering (CHEMENG 177/277, MATSCI 166/176) [Winter 2027]](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CHEMENG+177%3A+Data+Science+and+Machine+Learning+Approaches+in+Chemical+and+Materials+Engineering&collapse=); As Course assistant (CA); Instructor: Brian Hie.
+### [Data Science and Machine Learning Approaches in Chemical and Materials Engineering (CHEMENG 177/277, MATSCI 166/176) [Winter 2027]](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CHEMENG+177%3A+Data+Science+and+Machine+Learning+Approaches+in+Chemical+and+Materials+Engineering&collapse=)
+As Course assistant (CA); Instructor: Brian Hie.

@@ -68,12 +68,12 @@ __Figure:__ Adenosine Deadmidase acting on RNA (ADAR) activity.
 
 ---
 # Publications:
-### [A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays (Technial Note)](https://doi.org/10.5281/zenodo.17123347)
+### [A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays](https://doi.org/10.5281/zenodo.17123347)
 __Chang M. Yun\*__, Salil Deshpande\*, Vivekanandan Ramalingam\*, Vivian Hecht\*, Aman Patel\*, Anusri Pampari\*, Selin Jessa, Ryan Zhao, Austin Wang, Anshul Kundaje^.  
 [_Zenodo_, August 2026]((https://doi.org/10.5281/zenodo.17123347)).  
 
 ### [The Encyclopedia of DNA Elements](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1)
-__The ENCODE Project Consortium\*__; Timothy E. Reddy\*.  
+__The ENCODE Project Consortium\*__, Timothy E. Reddy\*.  
 [_bioRxiv_, July 2026](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1).  
 
 ### [Decoding common and rare noncoding variant effects across cellular and developmental contexts](https://www.nature.com/articles/s41588-026-02619-6)

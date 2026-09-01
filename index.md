@@ -30,9 +30,9 @@ __Figure:__ ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models
 - __Main ENCODE 4 Preprint__: [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1)
 - __Technical Note__: [Zenodo](https://doi.org/10.5281/zenodo.17123347)
 - __User-friendly resources__:
-  - __Models__ on: [Hugging Face](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
-  - __Tracks__ on: [UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
-  - __All resources__ on: [ENCODE Portal](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
+  - __Models__: [Hugging Face](https://huggingface.co/collections/kundajelab/encode-bpnet-models) 
+  - __Tracks__: [UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://kundajelab.github.io/ucsc-trackhub-encode.github.io/hub.txt)
+  - __All resources__: [ENCODE Portal](https://encodeproject.org/search/?type=Annotation&annotation_type=BPNet-model&annotation_type=ChromBPNet-model&status=released)
 
 ---
 ## A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays

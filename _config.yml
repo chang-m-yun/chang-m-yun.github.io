@@ -2,3 +2,16 @@ title: Chang M. Yun
 logo: /assets/img/photo.png
 description: "<b>PhD Candidate, Stanford University</b><br>MPhil, University of Cambridge<br>BSc, Columbia University<br><br><b>Contact:</b> chang.m.yun [at] stanford [dot] edu"
 theme: jekyll-theme-minimal
+
+goatcounter:
+  enabled: true
+  code: chang-m-yun
+
+# To enable comments, fill these values from https://giscus.app after enabling
+# GitHub Discussions and installing the giscus app for this repository.
+giscus:
+  enabled: true
+  repo: chang-m-yun/chang-m-yun.github.io
+  repo_id: "R_kgDOMJCSow"
+  category: Blog comments
+  category_id: "DIC_kwDOMJCSo84DE0rx"

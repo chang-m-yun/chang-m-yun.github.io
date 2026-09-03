@@ -1,0 +1,24 @@
+{% if site.goatcounter.enabled and site.goatcounter.code %}
+  <div id="goatcounter-view-count" class="post-views" aria-live="polite">Loading views…</div>
+  <script>
+    (function () {
+      var target = document.currentScript.previousElementSibling;
+      var attempts = 0;
+      var timer = window.setInterval(function () {
+        attempts += 1;
+        if (window.goatcounter && window.goatcounter.visit_count) {
+          window.clearInterval(timer);
+          target.textContent = '';
+          window.goatcounter.visit_count({
+            append: '#goatcounter-view-count',
+            no_branding: true,
+            path: window.goatcounter.get_data().p
+          });
+        } else if (attempts === 100) {
+          window.clearInterval(timer);
+          target.textContent = 'Views unavailable';
+        }
+      }, 100);
+    }());
+  </script>
+{% endif %}

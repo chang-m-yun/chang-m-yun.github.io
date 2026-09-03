@@ -1,8 +1,8 @@
 ---
 layout: "blog"
 title: "(Slack message) The case for ML-led synthetic biology: Why synbio failed us; Why the old guard should step down; Why the new guard should be computationally-native."
-Date: "2026-09-03"
-Author: "Chang M. Yun"
+date: "2026-09-03"
+author: "Chang M. Yun"
 ---
 
 Couldn't think of a better way to express my thoughts than just to share what I posted in our [lab](https://kundajelab.github.io/) Slack.
@@ -41,4 +41,4 @@ Rant end. 😅
 
 The only meme i could think of the whole time (from succession, if people have seen it):
 
-![source.gif](“Rehearsal.” Succession, season 4, episode 2, HBO, 2 Apr. 2023. Logan Roy: “I love you, but you are not serious people.”)
+![Logan Roy says, “I love you, but you are not serious people.” from _Succession_, season 4, episode 2.](source.gif)

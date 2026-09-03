@@ -15,11 +15,17 @@
   <body>
     <div class="wrapper">
       <nav class="site-index" aria-label="Page index">
-        <a href="#bio">Bio</a>
-        <a href="#current-projects">Current projects</a>
-        <a href="#past-projects">Past projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching</a>
+        {% if page.layout == "blog" or page.url == "/blogs/" %}
+          <a href="{{ "/" | relative_url }}">Home</a>
+          <a href="{{ "/blogs/" | relative_url }}">Blog</a>
+        {% else %}
+          <a href="#bio">Bio</a>
+          <a href="#current-projects">Current projects</a>
+          <a href="#past-projects">Past projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#teaching">Teaching</a>
+          <a href="{{ "/blogs/" | relative_url }}">Blog</a>
+        {% endif %}
       </nav>
 
       <header>

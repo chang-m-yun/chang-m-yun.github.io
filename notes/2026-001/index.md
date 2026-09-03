@@ -10,12 +10,14 @@ Couldn't think of a better way to express my thoughts than just to share what I 
 Feel free to read below.
 
 ---
+"  
+(Not sure if this is the right channel for this but) Just presented another quick lightning talk + poster session on ENCODE GRAMMAR/MotifCompendium at the [Stanford Synthetic Biology Expo](https://sb.stanford.edu/events) (i promise this is the last poster session on ENCODE GRAMMAR/MC after IGVF+genetics retreat 😅)
 
-(Not sure if this is the right channel for this but) Just presented another quick lightning talk + poster session on ENCODE GRAMMAR/MotifCompendium at the Stanford Synthetic Biology Expo [sb.stanford.edu/events](https://sb.stanford.edu/events) (i promise this is the last poster session on ENCODE GRAMMAR/MC after IGVF+genetics retreat 😅)
+![Stanford Synthetic Biology Expo: Lightning Talk & Poster Session.](ssbx.png)
 
 But I think I just felt my first real disappointment in a scientific community (in the synthetic biology community) - and just wanted to vent a little bit here.
 
-Personally, I first started down the bio path circa 2016 when I found out about a syn bio/metabolic engineering study that synthesized artemisinin (an anti-malarial precursor) in yeast that was (hypothetically) vastly more efficient than extracting it from its rare native plant ([nature.com/articles/nature04640](https://www.nature.com/articles/nature04640) from Jay Keasling Lab in 2006, if people are interested). I just thought it was the coolest thing to engineer cells, like we do with all other parts of our lives, for the betterment of humanity. And the plan was to build genetic circuits (like in electrical engineering) to wire cells, that promised the powers of engineering: solve health (obviously), agriculture (plant engineering), energy (biofuel), petrochemical, sustainability, etc.
+Personally, I first started down the bio path circa 2016 when I found out about a syn bio/metabolic engineering study that synthesized artemisinin (an anti-malarial precursor) in yeast that was (hypothetically) vastly more efficient than extracting it from its rare native plant ([from Jay Keasling Lab in 2006](https://www.nature.com/articles/nature04640), if people are interested). I just thought it was the coolest thing to engineer cells, like we do with all other parts of our lives, for the betterment of humanity. And the plan was to build genetic circuits (like in electrical engineering) to wire cells, that promised the powers of engineering: solve health (obviously), agriculture (plant engineering), energy (biofuel), petrochemical, sustainability, etc.
 
 But 10 years on, today i just saw the _exact_ same people tell the _exact_ same narrative - with not that much more to show for than work from 10-20 years ago. Just continue to gobble up resources and talent based on "cool", "creative" (children-like) ideas.
 
@@ -35,10 +37,14 @@ No: Actually, modern bridges were possible mainly because of computer aided desi
 
 Overall, my conclusion was that: The old guard did their job. They showed for the first time what engineering biology could look like, extended our imagination, and inspired the next generation. But the old guard must pass and the new guard must rise. The previous generation of syn bio was primarily led by biologists (and some electrical engineers). The next generation needs to be more computationally-native, that attempts to predictively describe each synthetic perturbation and component, that only then, can we actually start to build out the complex biological systems we imagined.
 
-Rant end. 😅
+Rant end. 😅  
+"  
+@ 11:51 PM
 
 ---
-
+"  
 The only meme i could think of the whole time (from succession, if people have seen it):
 
-![Logan Roy says, “I love you, but you are not serious people.” from _Succession_, season 4, episode 2.](source.gif)
+![“Rehearsal.” Succession, season 4, episode 2, HBO, 2 Apr. 2023. Logan Roy: “I love you, but you are not serious people.”](source.gif)  
+"  
+@ 11:26 AM

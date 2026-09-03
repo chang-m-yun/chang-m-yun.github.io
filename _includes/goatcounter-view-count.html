@@ -1,28 +1,26 @@
 {% if site.goatcounter.enabled and site.goatcounter.code %}
-  <span class="post-views" aria-live="polite"></span>
+  <span id="goatcounter-view-count" class="post-views" aria-label="Views"></span>
   <script>
     (function () {
       var target = document.currentScript.previousElementSibling;
+      var path = '{{ page.url | relative_url }}'.replace(/\/+$/, '') || '/';
       var attempts = 0;
       var timer = window.setInterval(function () {
         attempts += 1;
-        if (window.goatcounter && window.goatcounter.get_data) {
+        if (window.goatcounter && window.goatcounter.visit_count) {
           window.clearInterval(timer);
-          var request = new XMLHttpRequest();
-          request.addEventListener('load', function () {
-            if (request.status !== 200) return;
-            try {
-              target.textContent = JSON.parse(request.responseText).count;
-            } catch (error) {
-              target.textContent = '';
-            }
+          window.goatcounter.visit_count({
+            append: '#goatcounter-view-count',
+            path: path,
+            no_branding: true,
+            attr: {width: '52', height: '24', title: 'Views'},
+            style: [
+              'body { background: transparent; }',
+              'div { width: 52px; height: 24px; border: 0; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 14.72px; font-weight: normal; line-height: 24px; }',
+              'br, #gcvc-for, #gcvc-by { display: none; }',
+              '#gcvc-views { font-size: inherit; }'
+            ].join(' ')
           });
-          request.open(
-            'GET',
-            'https://{{ site.goatcounter.code }}.goatcounter.com/counter/' +
-              encodeURIComponent(window.goatcounter.get_data().p) + '.json'
-          );
-          request.send();
         } else if (attempts === 100) {
           window.clearInterval(timer);
         }

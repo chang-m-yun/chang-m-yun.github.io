@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bio
+page_class: bio-page
 ---
 # Bio:
 I am a PhD candidate in [Chemical Engineering](https://cheme.stanford.edu/) at Stanford University. 

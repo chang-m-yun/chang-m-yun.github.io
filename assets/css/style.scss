@@ -288,6 +288,10 @@ section img + p strong {
   padding: 16px 0;
 }
 
+.notes-list li:first-child {
+  border-top: 0;
+}
+
 .notes-list li:last-child {
   border-bottom: 1px solid var(--border);
 }
@@ -349,6 +353,10 @@ footer p {
     margin-bottom: 24px;
     padding-bottom: 18px;
     padding-right: 0;
+  }
+
+  body:not(.bio-page) header {
+    display: none;
   }
 
   .site-index {

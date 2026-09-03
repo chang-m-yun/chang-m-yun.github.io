@@ -4,28 +4,19 @@
     (function () {
       var target = document.currentScript.previousElementSibling;
       var attempts = 0;
-      var showZero = function () {
-        target.textContent = '0';
-      };
       var timer = window.setInterval(function () {
         attempts += 1;
         if (window.goatcounter && window.goatcounter.get_data) {
           window.clearInterval(timer);
           var request = new XMLHttpRequest();
           request.addEventListener('load', function () {
-            if (request.status !== 200) {
-              showZero();
-              return;
-            }
+            if (request.status !== 200) return;
             try {
               target.textContent = JSON.parse(request.responseText).count;
             } catch (error) {
-              showZero();
+              target.textContent = '';
             }
           });
-          request.addEventListener('error', showZero);
-          request.addEventListener('timeout', showZero);
-          request.timeout = 10000;
           request.open(
             'GET',
             'https://{{ site.goatcounter.code }}.goatcounter.com/counter/' +
@@ -34,7 +25,6 @@
           request.send();
         } else if (attempts === 100) {
           window.clearInterval(timer);
-          showZero();
         }
       }, 100);
     }());

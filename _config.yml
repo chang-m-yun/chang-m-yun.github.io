@@ -1,7 +1,17 @@
 title: Chang M. Yun
-logo: /assets/img/photo.png
+logo: /assets/img/photo-small.png
 description: "<b>PhD Candidate, Stanford University</b><br>MPhil, University of Cambridge<br>BSc, Columbia University<br><br><b>Contact:</b> chang.m.yun [at] stanford [dot] edu"
 theme: jekyll-theme-minimal
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/photo-small.png
+        width: 320
+        height: 320
+        alt: Chang M. Yun
 
 navigation:
   - label: Bio

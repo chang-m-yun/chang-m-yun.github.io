@@ -5,12 +5,13 @@ date: "2026-09-03"
 author: "Chang M. Yun"
 ---
 
-Couldn't think of a better way to express my thoughts than just to share what I posted in our [lab](https://kundajelab.github.io/) Slack.
-
-Feel free to read below.
+(Couldn't think of a better way to express my thoughts than just to share what I posted in our [lab](https://kundajelab.github.io/) Slack)
 
 ---
 "  
+(Wow this got out of hand 😅 Short rant on synthetic biology after a lightning talk/poster session today. Only read if you're curious..!)
+
+--  
 (Not sure if this is the right channel for this but) Just presented another quick lightning talk + poster session on ENCODE GRAMMAR/MotifCompendium at the [Stanford Synthetic Biology Expo](https://sb.stanford.edu/events) (i promise this is the last poster session on ENCODE GRAMMAR/MC after IGVF+genetics retreat 😅)
 
 ![Stanford Synthetic Biology Expo: Lightning Talk & Poster Session.](ssbx.png)

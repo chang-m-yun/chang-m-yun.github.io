@@ -10,7 +10,7 @@ title: Notes
   <ul class="notes-list">
   {% for post in notes %}
     <li>
-      <h3 href="{{ post.url | relative_url }}">{{ post.title }}</h3>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <span>{{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
   {% endfor %}

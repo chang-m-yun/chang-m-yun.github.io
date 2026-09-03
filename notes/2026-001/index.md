@@ -5,7 +5,7 @@ date: "2026-09-03"
 author: "Chang M. Yun"
 ---
 
-(Couldn't think of a better way to express my thoughts than just to share what I posted in our [lab](https://kundajelab.github.io/) Slack)
+Couldn't think of a better way to express my thoughts than just to share what I posted in our [lab](https://kundajelab.github.io/) Slack.
 
 ---
 "  

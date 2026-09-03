@@ -10,11 +10,11 @@ title: Notes
   <ul class="notes-list">
   {% for post in notes %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <h3 href="{{ post.url | relative_url }}">{{ post.title }}</h3>
       <span>{{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
   {% endfor %}
   </ul>
 {% else %}
-  <p>Notes are coming soon.</p>
+  <p>Notes are coming soon..!</p>
 {% endif %}

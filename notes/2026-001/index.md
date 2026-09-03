@@ -1,6 +1,6 @@
 ---
 layout: "notes"
-title: "[Slack message] The case for ML-led synthetic biology: Why synbio failed us; Why the old guard should step down; Why the new guard should be computationally-native."
+title: "[Slack message] The case for ML-led synthetic biology: Why synbio failed us, why the old guard must pass, and why the new guard should be computationally-native."
 date: "2026-09-03"
 author: "Chang M. Yun"
 ---
@@ -9,9 +9,9 @@ Couldn't think of a better way to express my thoughts than just to share what I 
 
 Feel free to read below.
 
---
+---
 
-(Not sure if this is the right channel for this but) Just presented another quick lightning talk + poster session on ENCODE GRAMMAR/MotifCompendium at the Stanford Synthetic Biology Expo sb.stanford.edu/events (i promise this is the last poster session on ENCODE GRAMMAR/MC after IGVF+genetics retreat :sweat_smile:)
+(Not sure if this is the right channel for this but) Just presented another quick lightning talk + poster session on ENCODE GRAMMAR/MotifCompendium at the Stanford Synthetic Biology Expo [sb.stanford.edu/events](https://sb.stanford.edu/events) (i promise this is the last poster session on ENCODE GRAMMAR/MC after IGVF+genetics retreat 😅)
 
 But I think I just felt my first real disappointment in a scientific community (in the synthetic biology community) - and just wanted to vent a little bit here.
 
@@ -37,7 +37,7 @@ Overall, my conclusion was that: The old guard did their job. They showed for th
 
 Rant end. 😅
 
---
+---
 
 The only meme i could think of the whole time (from succession, if people have seen it):
 

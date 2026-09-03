@@ -12,8 +12,8 @@ navigation:
     url: /publications/
   - label: Teaching
     url: /teaching/
-  - label: Blog
-    url: /blogs/
+  - label: Notes
+    url: /notes/
 
 goatcounter:
   enabled: true
@@ -28,3 +28,4 @@ giscus:
   category: Blog comments
   category_id: "DIC_kwDOMJCSo84DE0rx"
   theme: light
+  theme: noborder_light

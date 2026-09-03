@@ -12,7 +12,7 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body>
+  <body class="{{ page.page_class | default: '' }}">
     <div class="wrapper">
       <nav class="site-index" aria-label="Page index">
         {% for item in site.navigation %}

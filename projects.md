@@ -4,15 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
-## Current projects
+# Current projects:
 
 ### ENCODE GRAMMAR (Genomic Regulatory Atlas of sequence Models, Motifs, Annotations and Rules): A deep learning model resource for decoding the DNA sequence logic of regulatory elements in the human genome
 ![Figure: ENCODE GRAMMAR: A deep learning resource that transforms the extensive ENCODE compendium of genome-wide biochemical profiling experiments into predictive models and interpretable regulatory sequence annotations: (1) ENCODE experiments measure complementary layers of gene regulation, including TF binding by TF ChIP–seq, chromatin accessibility by DNase-seq and ATAC-seq, transcription initiation by PRO-cap, and sequence-driven regulatory activity by MPRAs. (2) Deep learning models from the BPNet family (BPNet, ChromBPNet, ProCapNet, and ReporterNet) are trained separately for each experiment and cellular context to predict the corresponding biochemical signal directly from local DNA sequence. (3) Product resources released for each experiment include the trained models; predicted, base-resolution biochemical profiles; sequence-contribution maps identifying bases that drive model predictions; recurring predictive sequence motifs; genomic motif instances; and predicted effects of genetic variants obtained by comparing reference and alternate allele sequences..](/assets/img/project_encode_grammar.png)
 __Figure:__ ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models trained on TF binding, chromatin accessibility, transcription initiation, and reporter assays across ENCODE, each with full model predictions and interpretations.
 
-- __Blog post__: [GenomicsxAI](https://genomicsxai.github.io/blogs/2026-012/)
+- __Note__: [GenomicsxAI](https://genomicsxai.github.io/blogs/2026-012/)
 - __Main ENCODE 4 Preprint__: [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.07.06.731365v1)
 - __Technical Note__: [Zenodo](https://doi.org/10.5281/zenodo.17123347)
 - __User-friendly resources__:
@@ -39,7 +37,8 @@ __Figure:__ JASPAR 2026: Deep learning collection: Characterizes TF–DNA intera
 - __Publication__: [Nucleic Acids Research](https://doi.org/10.1093/nar/gkaf1209)
 - __JASPAR 2026__: [JASPAR: DL](https://jaspar.elixir.no/collection/deep-learning/)
 
-## Past projects
+---
+# Past projects:
 
 ### Designing _de novo_ bacterial toxin-antitoxins using a generative genomic foundation model
 ![Figure: Strategy for de novo design of Type II toxin-antitoxins using a genomic foundation model.](/assets/img/project_tat.png)

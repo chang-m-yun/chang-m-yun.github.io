@@ -1,6 +1,6 @@
 ---
-layout: "blog"
-title: "(Slack message) The case for ML-led synthetic biology: Why synbio failed us; Why the old guard should step down; Why the new guard should be computationally-native."
+layout: "notes"
+title: "[Slack message] The case for ML-led synthetic biology: Why synbio failed us; Why the old guard should step down; Why the new guard should be computationally-native."
 date: "2026-09-03"
 author: "Chang M. Yun"
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Bio
 ---
-# Bio
+# Bio:
 I am a PhD candidate in [Chemical Engineering](https://cheme.stanford.edu/) at Stanford University. 
 
 I am advised by [Anshul Kundaje](https://kundajelab.github.io/) in Computer Science & Genetics, and co-advised by [Brian Hie](https://evodesign.org/) in Chemical Engineering & Data Science. 

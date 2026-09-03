@@ -235,14 +235,31 @@ section img + p strong {
   margin: 0 0 24px;
 }
 
-.post-meta,
 .post-tags {
   color: var(--muted);
   font-size: 0.92rem;
 }
 
-.post-meta {
-  margin-bottom: 12px;
+.post-details {
+  color: var(--muted);
+  display: grid;
+  font-size: 0.92rem;
+  gap: 0.28rem 0.7rem;
+  grid-template-columns: max-content 1fr;
+  margin: 0 0 30px;
+}
+
+.post-details > div {
+  display: contents;
+}
+
+.post-details dt {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.post-details dd {
+  margin: 0;
 }
 
 .post-views {
@@ -262,10 +279,15 @@ section img + p strong {
   content: " views";
 }
 
-.comments {
+.reactions {
   border-top: 1px solid var(--border);
-  margin-top: 42px;
+  margin: 0 0 38px;
   padding-top: 28px;
+}
+
+.reactions h2 {
+  font-size: 1.2rem;
+  margin: 0 0 18px;
 }
 
 .giscus,

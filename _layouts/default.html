@@ -15,17 +15,9 @@
   <body>
     <div class="wrapper">
       <nav class="site-index" aria-label="Page index">
-        {% if page.layout == "blog" or page.url == "/blogs/" %}
-          <a href="{{ "/" | relative_url }}">Home</a>
-          <a href="{{ "/blogs/" | relative_url }}">Blog</a>
-        {% else %}
-          <a href="#bio">Bio</a>
-          <a href="#current-projects">Current projects</a>
-          <a href="#past-projects">Past projects</a>
-          <a href="#publications">Publications</a>
-          <a href="#teaching">Teaching</a>
-          <a href="{{ "/blogs/" | relative_url }}">Blog</a>
-        {% endif %}
+        {% for item in site.navigation %}
+          <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        {% endfor %}
       </nav>
 
       <header>

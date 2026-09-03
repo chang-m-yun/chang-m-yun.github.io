@@ -3,6 +3,18 @@ logo: /assets/img/photo.png
 description: "<b>PhD Candidate, Stanford University</b><br>MPhil, University of Cambridge<br>BSc, Columbia University<br><br><b>Contact:</b> chang.m.yun [at] stanford [dot] edu"
 theme: jekyll-theme-minimal
 
+navigation:
+  - label: Bio
+    url: /
+  - label: Projects
+    url: /projects/
+  - label: Publications
+    url: /publications/
+  - label: Teaching
+    url: /teaching/
+  - label: Blog
+    url: /blogs/
+
 goatcounter:
   enabled: true
   code: chang-m-yun
@@ -15,3 +27,4 @@ giscus:
   repo_id: "R_kgDOMJCSow"
   category: Blog comments
   category_id: "DIC_kwDOMJCSo84DE0rx"
+  theme: light

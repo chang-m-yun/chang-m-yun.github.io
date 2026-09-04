@@ -7,7 +7,6 @@ author: "Chang M. Yun"
 
 Couldn't think of a better way to express my thoughts than just to share what I posted in our [lab](https://kundajelab.github.io/) Slack.
 
----
 "  
 (Wow this got out of hand 😅 Short rant on synthetic biology after a lightning talk/poster session today. Only read if you're curious..!)
 

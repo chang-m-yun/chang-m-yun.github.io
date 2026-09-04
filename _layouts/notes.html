@@ -20,6 +20,8 @@ layout: default
     </div>
   </dl>
 
+  <h2>Notes:</h2>
+
   {{ content }}
 
   {% if page.tags %}
@@ -27,7 +29,7 @@ layout: default
   {% endif %}
 
   <section class="reactions" aria-label="Reactions and comments">
-    <h2>Reactions</h2>
+    <h2>Reactions:</h2>
     {% include giscus.html %}
   </section>
 </article>

@@ -53,4 +53,5 @@ __Figure:__ Strategy for de novo design of Type II toxin-antitoxins using a geno
 __Figure:__ Adenosine Deadmidase acting on RNA (ADAR) activity.
 
 - __GitHub__: [ADAR-LM](https://github.com/chang-m-yun/CS229_final_project/)
+
 ---

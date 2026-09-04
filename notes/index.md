@@ -4,7 +4,6 @@ title: Notes
 ---
 
 # Notes
-
 {% assign notes = site.pages | where: "layout", "notes" | sort: "date" | reverse %}
 {% if notes.size > 0 %}
   <ul class="notes-list">

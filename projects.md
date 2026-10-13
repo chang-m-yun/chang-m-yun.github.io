@@ -20,7 +20,7 @@ __Figure:__ ENCODE GRAMMAR: A collection of 3,865 regulatory DNA seq2func models
 
 ---
 
-### ENCODE MotifCompendium: A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays
+### MotifCompendium: A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays
 ![Figure: ENCODE MotifCompendium: A unified lexicon of predictive DNA sequence motifs from ENCODE transcription factor binding and chromatin accessibility assays across ENCODE.](/assets/img/project_mc_encode.png)
 ![Figure: MotifCompendium: A GPU-accelerated Python package for clustering, annotating, and managing motifs, at scale.](/assets/img/project_mc_main.png)
 __Figure:__ MotifCompendium: A GPU-accelerated Python package for clustering, annotating, and managing motifs, at scale. Across ENCODE GRAMMAR, we collapsed 286,836 deep learning contribution-based motifs into a single, non-redundant set of 3,384 unique motif patterns that capture TF binding and chromatin accessibility activity.

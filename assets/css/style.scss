@@ -334,16 +334,23 @@ footer p {
 }
 
 @media print, screen and (max-width: 960px) {
-  /* Fill at least one screen (less the 8px body margins) so the footer sits at
-     the bottom on short pages, with the same edge gap as the top of the page. */
-  .wrapper {
+  body {
+    margin: 0;
+  }
+
+  /* `div.wrapper`, not `.wrapper`: the theme's own `div.wrapper { width: auto;
+     margin: 0 }` is more specific and would otherwise zero the gutters.
+     Fill at least one screen so the footer sits at the bottom on short pages,
+     with the same edge gap as the top of the page. */
+  div.wrapper {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     max-width: 760px;
-    min-height: calc(100vh - 16px);
-    min-height: calc(100svh - 16px);
-    padding: 12px 0;
-    width: calc(100% - 36px);
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: 20px 0;
+    width: calc(100% - 64px);
   }
 
   header,
@@ -387,13 +394,9 @@ footer p {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-    font-size: 15px;
-  }
-
-  .wrapper {
-    padding: 8px 0;
-    width: calc(100% - 28px);
+  div.wrapper {
+    padding: 16px 0;
+    width: calc(100% - 40px);
   }
 
   .site-index {
@@ -411,12 +414,86 @@ footer p {
     font-size: 1.75rem;
   }
 
+  /* Bio header: photo beside the credentials instead of stacked above them. */
+  .bio-page header {
+    align-items: start;
+    column-gap: 16px;
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    padding-bottom: 16px;
+  }
+
+  .bio-page header h1 {
+    grid-column: 1 / -1;
+    margin-bottom: 12px;
+  }
+
+  .bio-page header img {
+    grid-column: 1;
+    height: 92px;
+    margin: 4px 0 0;
+    width: 92px;
+  }
+
+  .bio-page header p {
+    font-size: 0.92rem;
+    grid-column: 2;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .bio-page header .view {
+    grid-column: 1 / -1;
+    margin-top: 14px;
+  }
+
+  .bio-page header br:last-child {
+    display: none;
+  }
+
+  /* Page titles (`# Title:` in Markdown) are otherwise the theme's 28px. */
+  section h1 {
+    font-size: 1.55rem;
+    line-height: 1.2;
+    margin: 0 0 16px;
+  }
+
   section h2 {
-    font-size: 1.32rem;
+    font-size: 1.25rem;
+    margin: 30px 0 12px;
   }
 
   section h3 {
     font-size: 1rem;
+    margin: 24px 0 8px;
+  }
+
+  hr {
+    margin: 28px 0 20px;
+  }
+
+  .notes-list h3 {
+    margin: 0 0 4px;
+  }
+
+  /* Kramdown puts an image and its "Figure:" caption in one <p>, so
+     `section img + p` above never matches; style that paragraph instead. */
+  section p:has(img) {
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  section p:has(img) strong {
+    color: #555555;
+  }
+
+  section {
+    padding-bottom: 24px;
+  }
+
+  footer {
+    padding-top: 24px;
   }
 
   .view a {

@@ -22,7 +22,7 @@ Related, this year, i’m somehow (already) at a point in my phd where i’ve (t
 
 Nothing changes drastically from this, but maybe the only thing that has slightly changed is how to think about “help”: I really dont think blind protectorat-ism, taking away all the burden off their shoulders, without full acknowledgement of what’s going on, is the right way to go about it anymore. Assuming learning is the goal—to be ready when another, similar experience happens—what’s most helpful to learn is what others arent teaching. Protectoratism used to be rare, and hence helpful in learning. Right now, values, responsibility, and just how to be good person in order to live with others is what might be scarce 🫠
 
-Just wanted to share these thoughts as we think about how to sustainably, and optimally, keep the community going..! (And im sure from the other side, others view us this way too lol so gotta do better ourselves too 😅
+Just wanted to share these thoughts as we think about how to sustainably, and optimally, keep the community going..! (And im sure from the other side, others view us this way too lol so gotta do better ourselves too 😅)
 "  
 @ 9:48 PM
 ---

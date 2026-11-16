@@ -25,7 +25,9 @@ Nothing changes drastically from this, but maybe the only thing that has slightl
 Just wanted to share these thoughts as we think about how to sustainably, and optimally, keep the community going..! (And im sure from the other side, others view us this way too lol so gotta do better ourselves too 😅)
 "  
 @ 9:48 PM  
+
 ---
+
 "  
 Screenshot of my first text to the driver (anonymized):
 
